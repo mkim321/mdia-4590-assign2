@@ -282,7 +282,8 @@ body{
 .project-box h5{margin:0;color:#fff;font-size:1.8rem;font-weight:300}.project-category{color:#fff;margin-top:.5rem}
 .project-box:hover{color:#B59C75;text-decoration:none}
 .project-box:hover h5{color:#B59C75!important}
-.project-box:hover .project-category{color:#fff}
+.project-category a{color:#fff}
+.project-box:hover a{color:#B59C75}
 
 
 /*
