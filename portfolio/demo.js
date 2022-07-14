@@ -46,6 +46,10 @@ $('.navbar-toggle').on('click',function(){
     $(this).closest('li').addClass('active');});if($('.owl-carousel').length>0){$(".review-carousel").owlCarousel({responsive:{0:{items:1},720:{items:1,},1280:{items:1}},responsiveRefreshRate:0,nav:false,navText:[],animateIn:'fadeIn',dots:true});
 }
 
+$('.navbar-exit').on('click',function(){
+    $('body').removeClass('menu-is-opened').addClass('menu-is-closed');
+});
+
 if($('.pagepiling').length>0){
     $('.pagepiling').pagepiling({
         scrollingSpeed:280,loopBottom:true,anchors:['page1','page2','page3','page4'],afterLoad:function(anchorLink,index){if($('.pp-section.active').scrollTop()>0){$('.navbar').removeClass('navbar-white');}
