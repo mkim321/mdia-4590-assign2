@@ -163,11 +163,35 @@ body{
     display:block;
     width:30px;
     height:3px;
-    border-radius:1px}
+    border-radius:1px
+}
 
 .navbar-toggle .icon-bar+.icon-bar{margin-top:4px}
 
-.navbar-toggle:hover .icon-bar{background-color:rgb(181,156,117);}
+.navbar-toggle:hover .icon-bar{background-color:#B59C75;}
+
+.navbar-exit {
+    float: right;
+    display:block;
+    margin-top:4rem;
+    margin-right:3rem;
+    padding:0;
+    border:0;
+    color:#B59C75;
+    background-color: transparent;
+}
+
+.navbar-exit img{
+    -webkit-transition:all .3s ease;
+    -o-transition:all .3s ease;
+    transition:all .3s ease;
+    width: 25px;
+    height: 25px;
+}
+
+.navbar-exit img:hover{
+    color: #B59C75;
+}
 
 .menu{
     position:fixed;
