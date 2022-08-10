@@ -361,11 +361,16 @@ body{
     font-size: 1.5em;
 }
 
+.flex-box{
+    display: flex;
+    justify-content: center;
+}
+
 .contact-box{
     max-width: 12em;
     margin: 2em 0;
     text-align: center;
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -429,7 +434,7 @@ body{
 
 @media(min-width:992px){
     html{font-size:14px}.menu{width:35%;max-width:35rem}.boxed{padding-left:4.2857rem;padding-right:4.2857rem}.right-boxed{right:4.2857rem}.left-boxed{left:4.2857rem}
-    #section4 img{height: 12em;}.contact-box{margin: 4em 0;position: absolute; right: 4.2857rem;}.contact-link{text-align: center; align-self: right;}
+    #section4 img{height: 12em;}.flex-box{justify-content: flex-end;}.contact-box{margin: 4em 0;}.contact-link{text-align: center; align-self: right;}
 }
 
 @media(min-height:500px){
